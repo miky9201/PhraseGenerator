@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link id="stylesheet" rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id="container">
+
+
+		<h1 class="center">PHRASES GENERATOR</h1>
+		<h2 class="center">Bienvenue sur le générateur de phrase</br> le plus loufoque jamais inventé !</h2>
+
+
+		<div class="section flex-column-center" id="choix-generateur">
+			<p class="center">Choisis le type de générateur que tu souhaites utiliser :</p>
+			<div class="sous-section flex-row-space-around width-40">
+				<span class="flex-column-center"><input type="radio" id="classique" name="choix" value="1" checked=""></br><label for="choice1">CLASSIQUE</label>
+				</span>
+	    		<span class="flex-column-center"><input type="radio" id="starwars" name="choix" value="2"></br><label for="choice2">STAR WARS</label>
+	    		</span>
+			</div>
+		</div>
+
+
+		<div class="section flex-column-center" id="nombre-citation">
+			<p class="center">Combien de phrases souhaites-tu générer ?</p>
+			<div class="sous-section flex-row-space-around width-90">
+				<span class="flex-column-center"><input type="radio" id="choice1" name="contact" value="1" checked=""></br><label for="choice1">1 citation</label>
+				</span>
+	    		<span class="flex-column-center"><input type="radio" id="choice2" name="contact" value="2"></br><label for="choice2">2 citations</label>
+	    		</span>
+	    		<span class="flex-column-center"><input type="radio" id="choice3" name="contact" value="3"></br><label for="choice3">3 citations</label>
+	    		</span>
+	    		<span class="flex-column-center"><input type="radio" id="choice4" name="contact" value="4"></br><label for="choice4">4 citations</label>
+	    		</span>
+	    		<span class="flex-column-center"><input type="radio" id="choice5" name="contact" value="5"></br><label for="choice5">5 citations</label>
+	    		</span>
+			</div>
+		</div>
+
+
+		<div class="section flex-column-center" id="generateur">
+			<p class="center" id="citation">En cliquant sur le bouton ci-dessous, tu entreras dans les méandres de la phrase bizarre...</p>
+			<span id="generer"><a class="bouton" id="bouton-blue" onclick="afficherPhrase()" href="#">GÉNÉRER</a></span><span id="quitter"></span>
+		</div>
+
+
+	</div>	
+
+
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
+
+</body>
+</html>

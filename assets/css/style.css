@@ -1,0 +1,112 @@
+@font-face {
+	font-family: "champagne&limousine";
+	src: url('../font/Champagne & Limousines.ttf');
+}
+
+* {
+	font-family: "champagne&limousine", Helvetica, Arial, sans-serif;
+	color: #fff;
+}
+
+/*label {
+	font-size: 0.65em;
+}*/
+
+body {
+	background-color: #111;
+}
+
+
+
+
+
+
+
+.center {
+	text-align: center;
+}
+
+.flex-column-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.flex-row-space-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-row-center {
+	display: flex;
+	justify-content: center;
+}
+
+.width-10 {
+	width: 10%;
+}
+
+.width-20 {
+	width: 20%;
+}
+
+.width-30 {
+	width: 30%;
+}
+
+.width-40 {
+	width: 40%;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.width-60 {
+	width: 60%;
+}
+
+.width-70 {
+	width: 70%;
+}
+
+.width-80 {
+	width: 80%;
+}
+
+.width-90 {
+	width: 90%;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+.section {
+	margin: 0px 50px 20px 50px;
+	padding-bottom: 20px;
+	border: 2px solid #02E9FF;
+}
+
+.sous-section {
+	margin: auto;
+}
+
+.bouton {
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+#bouton-blue {
+	background-color: #02E9FF;
+	color: #111;
+}
+
+#bouton-red {
+	background-color: red;
+}
+
+#quitter, #generer {
+	margin-top: 15px;
+}
